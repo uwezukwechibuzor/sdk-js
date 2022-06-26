@@ -1,0 +1,21 @@
+{
+  "name": "@chidaniel/sdk-pro-js",
+  "version": "1.0.1",
+  "description": "",
+  "main": "dist/index.js",
+  "module": "dist/index.m.js",
+  "unpkg": "dist/index.umd.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "rm -rf dist && microbundle --tsconfig tsconfig.json --no-sourcemap"
+  },
+  "author": "",
+  "license": "ISC",
+  "files": [
+    "dist"
+  ],
+  "dependencies": {
+    "isomorphic-unfetch": "^3.1.0",
+    "microbundle": "^0.15.0"
+  }
+}
